@@ -12,14 +12,14 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ backgroundColor: background }}>
+      <div>
         <h2>This is the header.</h2>
       </div>
       <div style={{ backgroundColor: color, paddingTop: '100vh', color: background }}>
         <h1>Hello, world!</h1>
         <p>The content background color is white, and there is black overscroll at the top and bottom of the page.</p>
       </div>
-      <div style={{ backgroundColor: background }}>
+      <div>
         <h2>This is the footer.</h2>
       </div>
     </div>
